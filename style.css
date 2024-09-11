@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap');
+:root {
+    --color-main: #4E5CFB;
+    --second-color: #FFFFFF;
+    --third-color: #00DC9D;
+    --false-color: #FF475D;
+}
+
+body {
+    text-align: center;
+    background-color: var(--color-main);
+    color: var(--second-color);
+}
+
+#quest2 {
+    display: none;
+}
+
+#score-display {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 54px;
+    font-style: normal;
+    line-height: normal;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 35px;
+    font-family: "Nunito", sans-serif;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reponse {
+    width: 30%;
+    height: 100px;
+    background-color: var(--second-color);
+    color: #000;
+    margin: 0.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 9px 8.1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.reponse_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reponse p {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.reponse:hover {
+    transition: 0.5s;
+    box-shadow: inset 3px 3px 3px 3px rgba(0, 0, 0, 0.379);
+    background-color: var(--third-color);
+}
+
+.next {
+    margin-top: 10px;
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    background: #C3E2FF;
+}
+
+.next:hover {
+    box-shadow: inset 3px 3px 3px 3px rgba(0, 0, 0, 0.379);
+    background-color: var(--second-color);
+}
+
+.barre {
+    width: 700px;
+    height: 5px;
+    background-color: var(--second-color);
+    margin: auto;
+    margin-bottom: 2%;
+}
